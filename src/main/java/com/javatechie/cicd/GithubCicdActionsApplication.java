@@ -11,7 +11,7 @@ public class GithubCicdActionsApplication {
 
     @GetMapping("/welcome")
     public String welcome(){
-        return "welcome"; // Return the name of the HTML file
+        return "welcome"; //Return the name of the HTML file
     }
 
     public static void main(String[] args) {
