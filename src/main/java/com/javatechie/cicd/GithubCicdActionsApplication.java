@@ -11,7 +11,7 @@ public class GithubCicdActionsApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "Hello world";
+		return "Spring boot Application Deployed Successfully";
 	}
 
 //	echo "# github-actions-example" >> README.md
