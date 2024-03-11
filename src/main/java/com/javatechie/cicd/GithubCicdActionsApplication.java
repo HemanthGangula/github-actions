@@ -2,20 +2,20 @@ package com.javatechie.cicd;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@Controller
+@RestController
 public class GithubCicdActionsApplication {
 
-    @GetMapping("/welcome")
-    public String welcome(){
-        return "welcome"; // Return the name of the HTML file without the extension
-    }
-
-    public static void main(String[] args) {
-        SpringApplication.run(GithubCicdActionsApplication.class, args);
-    }
+	@GetMapping("/welcome")
+	public String welcome(){
+		return "Hello World this is a spring boot deployment";
+	}
+	
+	public static void main(String[] args) {
+		SpringApplication.run(GithubCicdActionsApplication.class, args);
+	}
 
 }
