@@ -2,27 +2,20 @@ package com.javatechie.cicd;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
+@Controller
 public class GithubCicdActionsApplication {
 
-	@GetMapping("/welcome")
-	public String welcome(){
-		return "Hello World this is a spring boot deployment";
-	}
+    @GetMapping("/welcome")
+    public String welcome(){
+        return "welcome"; // Return the name of the HTML file
+    }
 
-//	echo "# github-actions-example" >> README.md
-//	git init
-//	git add README.md
-//	git commit -m "first commit"
-//	git branch -M main
-//	git remote add origin https://github.com/Java-Techie-jt/github-actions-example.git
-//	git push -u origin main
-	public static void main(String[] args) {
-		SpringApplication.run(GithubCicdActionsApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(GithubCicdActionsApplication.class, args);
+    }
 
 }
