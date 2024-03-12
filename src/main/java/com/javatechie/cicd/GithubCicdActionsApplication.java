@@ -11,7 +11,7 @@ public class GithubCicdActionsApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "Hello World this is a spring boot deployment";
+		return "Hello World this is a Spring boot Application Deployment demo ";
 	}
 	
 	public static void main(String[] args) {
