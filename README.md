@@ -52,3 +52,7 @@ t
 Contributions are welcome! Feel free to open an issue or submit a pull request to improve this project. 🙌
 
 
+## Screenshots
+
+![GitHub Actions](https://cdn.hashnode.com/res/hashnode/image/upload/v1710250779442/30b86c45-6103-4f6b-8ac3-b21276f2dd40.png?auto=compress,format&format=webp)
+
