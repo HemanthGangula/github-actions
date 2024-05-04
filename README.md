@@ -37,7 +37,6 @@ The Docker images built in this project are hosted on Docker Hub. You can find t
 
 ```bash
   git clone https://github.com/HemanthGangula/github-actions-CICD.git
-t
 ```
 
 2. Navigate to the project directory:
